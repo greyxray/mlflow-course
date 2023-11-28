@@ -11,7 +11,7 @@ Based on [MLOps tools: MLflow and Huggingface](https://www.coursera.org/learn/ml
 
 # What it can do
 It will fetch the project, run it depending on MLproject and log the stuff
-[sh]
+```sh
     # in case using no conda
     poetry shell
     export PATH="/usr/local/anaconda3/bin:$PATH"
@@ -21,5 +21,4 @@ It will fetch the project, run it depending on MLproject and log the stuff
     mlflow run mlflow-example -P alpha=5
 
     poetry run mlflow run mlflow-example -P alpha=5
-[end]
-
+```
